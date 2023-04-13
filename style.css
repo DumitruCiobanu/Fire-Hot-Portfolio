@@ -366,7 +366,7 @@ h2.webdev {
 
 .contact-section-header {
   position: absolute;
-  transform: translateY(-50%);
+  transform: translateY(-100%);
   width: 100%;
   text-align: center;
   z-index: 100;
@@ -388,6 +388,32 @@ h2.webdev {
   position: absolute;
   transform: translateY(140%);
   z-index: 100;
+}
+
+.cv {
+  position: absolute;
+  z-index: 100;
+  transform: translateY(-150%);
+}
+
+.cv a {
+  display: block;
+  font-size: 1.1rem;
+  color: gold;
+  font-family: arial black;
+  text-align: center;
+  text-decoration: ;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #ffffff;
+  
+}
+
+.cv a:hover {
+  color: #fff;
+  cursor: pointer;
+  text-shadow: 2px 2px 14px rgb(255, 136, 0);
+  transition: color 0.3s ease-out;
+  transform: translateY(5px);
 }
 
 .contact-details {
@@ -479,19 +505,26 @@ h2.webdev {
     margin-bottom: 8rem;
   }
   .contact-section-header {
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
   .contact-section-header > h2 {
     font-size: 4rem;
   }
+
+  .cv a{
+    font-size: 1.7rem;
+    transform: translateY(90%);
+  }
+
   .contact-links {
-    transform: translateY(200%);
+    transform: translateY(160%);
   }
   .contact-details {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
+    padding: 15px;
   }
   .footer-info {
-    width: 90rem;
+    width: 70rem;
     padding: 4rem;
     border-top: 3px solid goldenrod;
     transform: translateY(200%);
@@ -566,19 +599,28 @@ h2.webdev {
     margin-bottom: 8rem;
   }
   .contact-section-header {
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
   .contact-section-header > h2 {
     font-size: 4rem;
   }
+
+  .cv a{
+    font-size: 1.8rem;
+    padding: 15px;
+    transform: translateY(120%);
+  }
+
   .contact-links {
     transform: translateY(200%);
   }
   .contact-details {
-    font-size: 1.8rem;
+    font-size: 2.7rem;
+    margin-bottom: -10px;
+    padding: 10px;
   }
   .footer-info {
-    width: 90rem;
+    width: 70rem;
     padding: 4rem;
     border-top: 3px solid goldenrod;
     transform: translateY(200%);
@@ -657,19 +699,25 @@ h2.webdev {
     margin-bottom: 8rem;
   }
   .contact-section-header {
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
   .contact-section-header > h2 {
     font-size: 4rem;
   }
+
+  .cv a {
+    font-size: 1.9rem;
+  }
+
   .contact-links {
     transform: translateY(190%);
   }
   .contact-details {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
+    padding: 10px;
   }
   .footer-info {
-    width: 80rem;
+    width: 60rem;
     padding: 4rem;
     border-top: 3px solid goldenrod;
     transform: translateY(190%);
@@ -748,20 +796,27 @@ h2.webdev {
     margin-bottom: 8rem;
   }
   .contact-section-header {
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
   .contact-section-header > h2 {
     font-size: 4rem;
     margin-bottom: 4rem;
   }
+
+  .cv a {
+    font-size: 2.4rem;
+    transform: translateY(90%);
+  }
+
   .contact-links {
     transform: translateY(70%);
   }
   .contact-details {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    padding: 10px;
   }
   .footer-info {
-    width: 70rem;
+    width: 50rem;
     padding: 5rem;
     border-top: 3px solid goldenrod;
     transform: translateY(190%);
@@ -846,19 +901,26 @@ h2.webdev {
     margin-bottom: 8rem;
   }
   .contact-section-header {
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
   .contact-section-header > h2 {
     font-size: 4rem;
   }
+
+  .cv a {
+    font-size: 2.6rem;
+    transform: translateY(100%);
+  }
+
   .contact-links {
     transform: translateY(90%);
   }
   .contact-details {
-    font-size: 3rem;
+    font-size: 3.6rem;
+    padding: 10px;
   }
   .footer-info {
-    width: 70rem;
+    width: 40rem;
     padding: 5rem;
     border-top: 3px solid goldenrod;
     transform: translateY(230%);
