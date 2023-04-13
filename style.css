@@ -402,10 +402,9 @@ h2.webdev {
   color: gold;
   font-family: arial black;
   text-align: center;
-  text-decoration: ;
+  text-decoration: underline;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px #ffffff;
-  
 }
 
 .cv a:hover {
@@ -511,7 +510,7 @@ h2.webdev {
     font-size: 4rem;
   }
 
-  .cv a{
+  .cv a {
     font-size: 1.7rem;
     transform: translateY(90%);
   }
@@ -605,7 +604,7 @@ h2.webdev {
     font-size: 4rem;
   }
 
-  .cv a{
+  .cv a {
     font-size: 1.8rem;
     padding: 15px;
     transform: translateY(120%);
